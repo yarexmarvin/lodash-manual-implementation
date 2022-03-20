@@ -35,13 +35,4 @@ export default function dropWhile(arr, condition) {
         }
     })
     return result
-
 }
-
-var users = [
-    { 'user': 'barney',  'active': true },
-    { 'user': 'fred',    'active': false },
-    { 'user': 'pebbles', 'active': false }
-  ];
-
-console.log(dropWhile(users, { 'user': 'pebbles', 'active': false }));
