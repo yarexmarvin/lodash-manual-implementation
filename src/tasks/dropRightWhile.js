@@ -36,11 +36,3 @@ export default function dropRightWhile(arr, condition) {
 
     },[])
 }
-
-var users = [
-    { 'user': 'barney',  'active': true },
-    { 'user': 'fred',    'active': false },
-    { 'user': 'pebbles', 'active': false }
-  ];
-
-console.log(dropRightWhile(users, { 'user': 'pebbles', 'active': false }));
